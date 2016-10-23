@@ -1,0 +1,34 @@
+{
+  "name": "serverless-pttbot",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "deploy": "serverless deploy"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/wrenth04/serverless-pttbot.git"
+  },
+  "author": "Phil Huang (wrenth04@gmail.com)",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/wrenth04/serverless-pttbot/issues"
+  },
+  "homepage": "https://github.com/wrenth04/serverless-pttbot#readme",
+  "devDependencies": {
+    "cz-conventional-changelog": "^1.2.0"
+  },
+  "config": {
+    "commitizen": {
+      "path": "./node_modules/cz-conventional-changelog"
+    }
+  },
+  "dependencies": {
+    "async": "^2.1.2",
+    "cheerio": "^0.22.0",
+    "firebase": "^3.5.1",
+    "request": "^2.75.0"
+  }
+}
